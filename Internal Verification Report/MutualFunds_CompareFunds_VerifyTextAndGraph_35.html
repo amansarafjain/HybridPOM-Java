@@ -1,0 +1,10 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">18-11-2014</td><td>16:27:40</td><td>Verify if expected text is displayed on page.</td><td>Expected Text is displayed on page.</td><td>Expected text is displayed on page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">18-11-2014</td><td>16:27:54</td><td>Verify if Comparision Graph is displayed.</td><td>Comparision Graph is displayed.</td><td>Comparision Graph is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1080527" started-at="2014-11-26T07:49:55Z" finished-at="2014-11-26T08:07:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1080527" started-at="2014-11-26T07:49:55Z" finished-at="2014-11-26T08:07:56Z">
+      <class name="TestCases.MutualFunds_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="LoadObjectReository" is-config="true" duration-ms="79" started-at="2014-11-26T13:29:40Z" finished-at="2014-11-26T13:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="setUp" is-config="true" duration-ms="11147" started-at="2014-11-26T13:29:40Z" finished-at="2014-11-26T13:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.MutualFunds_Page.MutualFunds_CompareFunds_VerifyTextAndGraph() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MutualFunds_CompareFunds_VerifyTextAndGraph()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="MutualFunds_CompareFunds_VerifyTextAndGraph" duration-ms="12480" started-at="2014-11-26T13:29:52Z" finished-at="2014-11-26T13:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MutualFunds_CompareFunds_VerifyTextAndGraph -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="tearDown" is-config="true" duration-ms="234" started-at="2014-11-26T13:30:04Z" finished-at="2014-11-26T13:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="setUp" is-config="true" duration-ms="11465" started-at="2014-11-26T13:30:04Z" finished-at="2014-11-26T13:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.MutualFunds_Page.MutualFunds_MonthScoreCard_VerifyColorAndValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MutualFunds_MonthScoreCard_VerifyColorAndValue()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="MutualFunds_MonthScoreCard_VerifyColorAndValue" duration-ms="151001" started-at="2014-11-26T13:30:16Z" finished-at="2014-11-26T13:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MutualFunds_MonthScoreCard_VerifyColorAndValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="tearDown" is-config="true" duration-ms="218" started-at="2014-11-26T13:32:47Z" finished-at="2014-11-26T13:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="setUp" is-config="true" duration-ms="10143" started-at="2014-11-26T13:32:47Z" finished-at="2014-11-26T13:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.MutualFunds_Page.MutualFunds_VerifyTextAndNavigation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MutualFunds_VerifyTextAndNavigation()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="MutualFunds_VerifyTextAndNavigation" duration-ms="56926" started-at="2014-11-26T13:32:57Z" finished-at="2014-11-26T13:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MutualFunds_VerifyTextAndNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="tearDown" is-config="true" duration-ms="358" started-at="2014-11-26T13:33:54Z" finished-at="2014-11-26T13:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.MutualFunds_Page@dddff]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:33:54Z" finished-at="2014-11-26T13:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.MutualFunds_Page -->
+      <class name="TestCases.IPO_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="LoadObjectReository" is-config="true" duration-ms="671" started-at="2014-11-26T13:19:55Z" finished-at="2014-11-26T13:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="setUp" is-config="true" duration-ms="18962" started-at="2014-11-26T13:19:56Z" finished-at="2014-11-26T13:20:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.IPO_Page.IPO_Calender_VerifyCalenderTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IPO_Calender_VerifyCalenderTab()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="IPO_Calender_VerifyCalenderTab" duration-ms="6917" started-at="2014-11-26T13:20:15Z" finished-at="2014-11-26T13:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IPO_Calender_VerifyCalenderTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="tearDown" is-config="true" duration-ms="281" started-at="2014-11-26T13:20:22Z" finished-at="2014-11-26T13:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="setUp" is-config="true" duration-ms="11766" started-at="2014-11-26T13:20:22Z" finished-at="2014-11-26T13:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.IPO_Page.IPO_Forthcoming_VerifyForthcomingTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IPO_Forthcoming_VerifyForthcomingTab()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="IPO_Forthcoming_VerifyForthcomingTab" duration-ms="10876" started-at="2014-11-26T13:20:34Z" finished-at="2014-11-26T13:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IPO_Forthcoming_VerifyForthcomingTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="tearDown" is-config="true" duration-ms="249" started-at="2014-11-26T13:20:45Z" finished-at="2014-11-26T13:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="setUp" is-config="true" duration-ms="10906" started-at="2014-11-26T13:20:45Z" finished-at="2014-11-26T13:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.IPO_Page.IPO_Past_VerifyCalenderTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IPO_Past_VerifyCalenderTab()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="IPO_Past_VerifyCalenderTab" duration-ms="48750" started-at="2014-11-26T13:20:56Z" finished-at="2014-11-26T13:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IPO_Past_VerifyCalenderTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="tearDown" is-config="true" duration-ms="265" started-at="2014-11-26T13:21:45Z" finished-at="2014-11-26T13:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="setUp" is-config="true" duration-ms="9893" started-at="2014-11-26T13:21:45Z" finished-at="2014-11-26T13:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.IPO_Page.IPO_VerifyCalenderOnIPOPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IPO_VerifyCalenderOnIPOPage()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="IPO_VerifyCalenderOnIPOPage" duration-ms="6385" started-at="2014-11-26T13:21:55Z" finished-at="2014-11-26T13:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IPO_VerifyCalenderOnIPOPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="tearDown" is-config="true" duration-ms="219" started-at="2014-11-26T13:22:01Z" finished-at="2014-11-26T13:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.IPO_Page@f1cbd7]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:22:01Z" finished-at="2014-11-26T13:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.IPO_Page -->
+      <class name="TestCases.Market_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Market_Page@51e62]" name="LoadObjectReository" is-config="true" duration-ms="62" started-at="2014-11-26T13:28:20Z" finished-at="2014-11-26T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Market_Page@51e62]" name="setUp" is-config="true" duration-ms="11045" started-at="2014-11-26T13:28:20Z" finished-at="2014-11-26T13:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Market_Page.Market_VerifyETFTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Market_VerifyETFTab()[pri:0, instance:TestCases.Market_Page@51e62]" name="Market_VerifyETFTab" duration-ms="26832" started-at="2014-11-26T13:28:31Z" finished-at="2014-11-26T13:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Market_VerifyETFTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Market_Page@51e62]" name="tearDown" is-config="true" duration-ms="203" started-at="2014-11-26T13:28:58Z" finished-at="2014-11-26T13:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Market_Page@51e62]" name="setUp" is-config="true" duration-ms="10893" started-at="2014-11-26T13:28:58Z" finished-at="2014-11-26T13:29:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Market_Page.Market_VerifyMarketTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Market_VerifyMarketTab()[pri:0, instance:TestCases.Market_Page@51e62]" name="Market_VerifyMarketTab" duration-ms="31016" started-at="2014-11-26T13:29:09Z" finished-at="2014-11-26T13:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Market_VerifyMarketTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Market_Page@51e62]" name="tearDown" is-config="true" duration-ms="218" started-at="2014-11-26T13:29:40Z" finished-at="2014-11-26T13:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Market_Page@51e62]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:29:40Z" finished-at="2014-11-26T13:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Market_Page -->
+      <class name="TestCases.Resources_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Resources_Page@7dcb35]" name="LoadObjectReository" is-config="true" duration-ms="109" started-at="2014-11-26T13:36:21Z" finished-at="2014-11-26T13:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Resources_Page@7dcb35]" name="setUp" is-config="true" duration-ms="11106" started-at="2014-11-26T13:36:21Z" finished-at="2014-11-26T13:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Resources_Page.Resource_VerifyGeneralEconmicIndicatorPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Resource_VerifyGeneralEconmicIndicatorPage()[pri:0, instance:TestCases.Resources_Page@7dcb35]" name="Resource_VerifyGeneralEconmicIndicatorPage" duration-ms="3176" started-at="2014-11-26T13:36:33Z" finished-at="2014-11-26T13:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resource_VerifyGeneralEconmicIndicatorPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Resources_Page@7dcb35]" name="tearDown" is-config="true" duration-ms="213" started-at="2014-11-26T13:36:36Z" finished-at="2014-11-26T13:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Resources_Page@7dcb35]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:36:36Z" finished-at="2014-11-26T13:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Resources_Page -->
+      <class name="TestCases.Reports_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Reports_Page@1c60f74]" name="LoadObjectReository" is-config="true" duration-ms="78" started-at="2014-11-26T13:33:54Z" finished-at="2014-11-26T13:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Reports_Page@1c60f74]" name="setUp" is-config="true" duration-ms="10558" started-at="2014-11-26T13:33:54Z" finished-at="2014-11-26T13:34:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Reports_Page.Reports_DailyWrap_VerifyDailyWrapPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Reports_DailyWrap_VerifyDailyWrapPage()[pri:0, instance:TestCases.Reports_Page@1c60f74]" name="Reports_DailyWrap_VerifyDailyWrapPage" duration-ms="48565" started-at="2014-11-26T13:34:05Z" finished-at="2014-11-26T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_DailyWrap_VerifyDailyWrapPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Reports_Page@1c60f74]" name="tearDown" is-config="true" duration-ms="203" started-at="2014-11-26T13:34:54Z" finished-at="2014-11-26T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Reports_Page@1c60f74]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:34:54Z" finished-at="2014-11-26T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Reports_Page -->
+      <class name="TestCases.Home_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Home_Page@c821ef]" name="LoadObjectReository" is-config="true" duration-ms="78" started-at="2014-11-26T13:35:52Z" finished-at="2014-11-26T13:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Home_Page@c821ef]" name="setUp" is-config="true" duration-ms="10976" started-at="2014-11-26T13:35:52Z" finished-at="2014-11-26T13:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Home_Page.verifyHomeTabCal() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomeTabCal()[pri:0, instance:TestCases.Home_Page@c821ef]" name="verifyHomeTabCal" duration-ms="18107" started-at="2014-11-26T13:36:03Z" finished-at="2014-11-26T13:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTabCal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_Page@c821ef]" name="tearDown" is-config="true" duration-ms="287" started-at="2014-11-26T13:36:21Z" finished-at="2014-11-26T13:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Home_Page@c821ef]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:36:21Z" finished-at="2014-11-26T13:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Home_Page -->
+      <class name="TestCases.Widget_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Widget_Page@191e365]" name="LoadObjectReository" is-config="true" duration-ms="78" started-at="2014-11-26T13:36:36Z" finished-at="2014-11-26T13:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Widget_Page@191e365]" name="setUp" is-config="true" duration-ms="10557" started-at="2014-11-26T13:36:36Z" finished-at="2014-11-26T13:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Widget_Page.verify_widgetTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_widgetTab()[pri:0, instance:TestCases.Widget_Page@191e365]" name="verify_widgetTab" duration-ms="69042" started-at="2014-11-26T13:36:47Z" finished-at="2014-11-26T13:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_widgetTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Widget_Page@191e365]" name="tearDown" is-config="true" duration-ms="265" started-at="2014-11-26T13:37:56Z" finished-at="2014-11-26T13:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Widget_Page@191e365]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:37:56Z" finished-at="2014-11-26T13:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Widget_Page -->
+      <class name="TestCases.ResearchHub_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.ResearchHub_Page@20b3a3]" name="LoadObjectReository" is-config="true" duration-ms="62" started-at="2014-11-26T13:34:54Z" finished-at="2014-11-26T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.ResearchHub_Page@20b3a3]" name="setUp" is-config="true" duration-ms="9603" started-at="2014-11-26T13:34:54Z" finished-at="2014-11-26T13:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ResearchHub_Page.ResearchHub_ResultsInsights_VerifyResearchHubPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ResearchHub_ResultsInsights_VerifyResearchHubPage()[pri:0, instance:TestCases.ResearchHub_Page@20b3a3]" name="ResearchHub_ResultsInsights_VerifyResearchHubPage" duration-ms="48210" started-at="2014-11-26T13:35:03Z" finished-at="2014-11-26T13:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResearchHub_ResultsInsights_VerifyResearchHubPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ResearchHub_Page@20b3a3]" name="tearDown" is-config="true" duration-ms="203" started-at="2014-11-26T13:35:52Z" finished-at="2014-11-26T13:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.ResearchHub_Page@20b3a3]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:35:52Z" finished-at="2014-11-26T13:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.ResearchHub_Page -->
+      <class name="TestCases.Companies_Page">
+        <test-method status="PASS" signature="LoadObjectReository()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="LoadObjectReository" is-config="true" duration-ms="93" started-at="2014-11-26T13:22:01Z" finished-at="2014-11-26T13:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadObjectReository -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="setUp" is-config="true" duration-ms="10472" started-at="2014-11-26T13:22:02Z" finished-at="2014-11-26T13:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Companies_Page.Companies_VerifyCompaniesTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Companies_VerifyCompaniesTab()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="Companies_VerifyCompaniesTab" duration-ms="142143" started-at="2014-11-26T13:22:12Z" finished-at="2014-11-26T13:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Companies_VerifyCompaniesTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="tearDown" is-config="true" duration-ms="10289" started-at="2014-11-26T13:24:34Z" finished-at="2014-11-26T13:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="setUp" is-config="true" duration-ms="10853" started-at="2014-11-26T13:24:44Z" finished-at="2014-11-26T13:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.Companies_Page.Companies_VerifyNavigationOnCompaniesSubtab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Companies_VerifyNavigationOnCompaniesSubtab()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="Companies_VerifyNavigationOnCompaniesSubtab" duration-ms="204416" started-at="2014-11-26T13:24:55Z" finished-at="2014-11-26T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Companies_VerifyNavigationOnCompaniesSubtab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="tearDown" is-config="true" duration-ms="282" started-at="2014-11-26T13:28:20Z" finished-at="2014-11-26T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ClearObjectRepository()[pri:0, instance:TestCases.Companies_Page@12be8e1]" name="ClearObjectRepository" is-config="true" duration-ms="0" started-at="2014-11-26T13:28:20Z" finished-at="2014-11-26T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObjectRepository -->
+      </class> <!-- TestCases.Companies_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

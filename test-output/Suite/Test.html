@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 26 13:19:55 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>1080 seconds (1080527 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Companies_Page.Companies_VerifyCompaniesTab()'><b>Companies_VerifyCompaniesTab</b><br>Test class: TestCases.Companies_Page</td>
+<td></td>
+<td>142</td>
+<td>TestCases.Companies_Page@12be8e1</td></tr>
+<tr>
+<td title='TestCases.Companies_Page.Companies_VerifyNavigationOnCompaniesSubtab()'><b>Companies_VerifyNavigationOnCompaniesSubtab</b><br>Test class: TestCases.Companies_Page</td>
+<td></td>
+<td>204</td>
+<td>TestCases.Companies_Page@12be8e1</td></tr>
+<tr>
+<td title='TestCases.IPO_Page.IPO_Calender_VerifyCalenderTab()'><b>IPO_Calender_VerifyCalenderTab</b><br>Test class: TestCases.IPO_Page</td>
+<td></td>
+<td>6</td>
+<td>TestCases.IPO_Page@f1cbd7</td></tr>
+<tr>
+<td title='TestCases.IPO_Page.IPO_Forthcoming_VerifyForthcomingTab()'><b>IPO_Forthcoming_VerifyForthcomingTab</b><br>Test class: TestCases.IPO_Page</td>
+<td></td>
+<td>10</td>
+<td>TestCases.IPO_Page@f1cbd7</td></tr>
+<tr>
+<td title='TestCases.IPO_Page.IPO_Past_VerifyCalenderTab()'><b>IPO_Past_VerifyCalenderTab</b><br>Test class: TestCases.IPO_Page</td>
+<td></td>
+<td>48</td>
+<td>TestCases.IPO_Page@f1cbd7</td></tr>
+<tr>
+<td title='TestCases.IPO_Page.IPO_VerifyCalenderOnIPOPage()'><b>IPO_VerifyCalenderOnIPOPage</b><br>Test class: TestCases.IPO_Page</td>
+<td></td>
+<td>6</td>
+<td>TestCases.IPO_Page@f1cbd7</td></tr>
+<tr>
+<td title='TestCases.Market_Page.Market_VerifyETFTab()'><b>Market_VerifyETFTab</b><br>Test class: TestCases.Market_Page</td>
+<td></td>
+<td>26</td>
+<td>TestCases.Market_Page@51e62</td></tr>
+<tr>
+<td title='TestCases.Market_Page.Market_VerifyMarketTab()'><b>Market_VerifyMarketTab</b><br>Test class: TestCases.Market_Page</td>
+<td></td>
+<td>31</td>
+<td>TestCases.Market_Page@51e62</td></tr>
+<tr>
+<td title='TestCases.MutualFunds_Page.MutualFunds_CompareFunds_VerifyTextAndGraph()'><b>MutualFunds_CompareFunds_VerifyTextAndGraph</b><br>Test class: TestCases.MutualFunds_Page</td>
+<td></td>
+<td>12</td>
+<td>TestCases.MutualFunds_Page@dddff</td></tr>
+<tr>
+<td title='TestCases.MutualFunds_Page.MutualFunds_MonthScoreCard_VerifyColorAndValue()'><b>MutualFunds_MonthScoreCard_VerifyColorAndValue</b><br>Test class: TestCases.MutualFunds_Page</td>
+<td></td>
+<td>151</td>
+<td>TestCases.MutualFunds_Page@dddff</td></tr>
+<tr>
+<td title='TestCases.MutualFunds_Page.MutualFunds_VerifyTextAndNavigation()'><b>MutualFunds_VerifyTextAndNavigation</b><br>Test class: TestCases.MutualFunds_Page</td>
+<td></td>
+<td>56</td>
+<td>TestCases.MutualFunds_Page@dddff</td></tr>
+<tr>
+<td title='TestCases.Reports_Page.Reports_DailyWrap_VerifyDailyWrapPage()'><b>Reports_DailyWrap_VerifyDailyWrapPage</b><br>Test class: TestCases.Reports_Page</td>
+<td></td>
+<td>48</td>
+<td>TestCases.Reports_Page@1c60f74</td></tr>
+<tr>
+<td title='TestCases.ResearchHub_Page.ResearchHub_ResultsInsights_VerifyResearchHubPage()'><b>ResearchHub_ResultsInsights_VerifyResearchHubPage</b><br>Test class: TestCases.ResearchHub_Page</td>
+<td></td>
+<td>48</td>
+<td>TestCases.ResearchHub_Page@20b3a3</td></tr>
+<tr>
+<td title='TestCases.Resources_Page.Resource_VerifyGeneralEconmicIndicatorPage()'><b>Resource_VerifyGeneralEconmicIndicatorPage</b><br>Test class: TestCases.Resources_Page</td>
+<td></td>
+<td>3</td>
+<td>TestCases.Resources_Page@7dcb35</td></tr>
+<tr>
+<td title='TestCases.Home_Page.verifyHomeTabCal()'><b>verifyHomeTabCal</b><br>Test class: TestCases.Home_Page</td>
+<td></td>
+<td>18</td>
+<td>TestCases.Home_Page@c821ef</td></tr>
+<tr>
+<td title='TestCases.Widget_Page.verify_widgetTab()'><b>verify_widgetTab</b><br>Test class: TestCases.Widget_Page</td>
+<td></td>
+<td>69</td>
+<td>TestCases.Widget_Page@191e365</td></tr>
+</table><p>
+</body>
+</html>

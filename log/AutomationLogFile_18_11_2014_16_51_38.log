@@ -1,0 +1,59 @@
+INFO main Finalaya - Unable to launch browser 
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Not able to hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to Verify value of Corpus Gainers
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Not able to hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card page
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Losers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Losers
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to Verify value of Corpus Losers
+INFO main Finalaya - ***********MutualFunds_MonthScoreCard_VerifyColorAndValue() Ended**************

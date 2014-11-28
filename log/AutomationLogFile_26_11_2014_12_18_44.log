@@ -1,0 +1,554 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************IPO_Calender_VerifyCalenderTab() Started*********************************
+INFO main Finalaya - click on IPO Tab
+INFO main Finalaya - Verify user is navigated to IPO page.
+INFO main Finalaya - User is navigated to IPO page
+INFO main Finalaya - Verify that Calendar current month and year is displayed on the IPO page.
+INFO main Finalaya - Calendar current month and year is displayed
+INFO main Finalaya - Get the current month and year
+INFO main Finalaya - Verify that IPO Microsite where Company Name is displayed as Label
+INFO main Finalaya - Going to click on Company and Navigated to page under Home> IPO Calender > IPO Microsite
+INFO main Finalaya - Verify that On IPO Microsite Page sections displayed are as Overview, Issue details, Contact Information, IPO Managing Bodies, Documents Research Reports
+INFO main Finalaya - Going to check table header
+INFO main Finalaya - Overview displayed
+INFO main Finalaya - Issue Details displayed
+INFO main Finalaya - Contact information displayed
+INFO main Finalaya - IPO Managing Bodies displayed
+INFO main Finalaya - Documents displayed
+INFO main Finalaya - Research Reports displayed
+INFO main Finalaya - Columns displayed as Company, Open, Close, Price Band (Rs), Size (Rs. Cr.), MOQ, Grade
+INFO main Finalaya - ***********************IPO_Calender_VerifyCalenderTab() Ended***********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************IPO_Forthcoming_VerifyForthcomingTab() Started*********************************
+INFO main Finalaya - Click on Forthcoming IPO page Sub Tab.
+INFO main Finalaya - Going to click on Forthcoming IPO page Sub Tab
+INFO main Finalaya - Verify Forthcoming tab Information.
+INFO main Finalaya - Going to verify Forthcoming Information label
+INFO main Finalaya - Verify Information and Documents Tabs are displayed.
+INFO main Finalaya - Going to verify Information and Documents Tabs are displayed
+INFO main Finalaya - Verify Forthcoming Columns header.
+INFO main Finalaya - Going to verify that Columns displayed as Company, Open, Close, Price Band (Rs), Size (Rs. Cr.), MOQ, Grade
+INFO main Finalaya - Company column displayed
+INFO main Finalaya - Open column displayed
+INFO main Finalaya - Close column displayed
+INFO main Finalaya - Price Band (Rs.) column displayed
+INFO main Finalaya - Size(Rs. Cr.) column displayed
+INFO main Finalaya - MOQ column displayed
+INFO main Finalaya - Grade column displayed
+INFO main Finalaya - Columns displayed as Company, Open, Close, Price Band (Rs), Size (Rs. Cr.), MOQ, Grade
+INFO main Finalaya - Verify Forthcoming tab Records.
+INFO main Finalaya - Going to verify If no records, altenate text 'There is no Current IPO Available' is displayed
+INFO main Finalaya - Altenate text 'There is no Current IPO Available' is displayed
+INFO main Finalaya - Verify Forthcoming Guided Search Section.
+INFO main Finalaya - Going to Verify Guided Search Section is displayed with links - Top Gainers, Top Losers, Largest Issue(Share Capital), Top Rated Issues
+INFO main Finalaya - Link - Top Gainers column displayed
+INFO main Finalaya - Link - Top Losers column displayed
+INFO main Finalaya - Link - Largest Issue(Share Capital) column displayed
+INFO main Finalaya - Link - Top Rated Issues column displayed
+INFO main Finalaya - Guided Search Section is displayed with links - Top Gainers, Top Losers, Largest Issue(Share Capital), Top Rated Issues
+INFO main Finalaya - ***********************IPO_Forthcoming_VerifyForthcomingTab() Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************IPO_Past_VerifyCalenderTab() Started*********************************
+INFO main Finalaya - Click on Forthcoming IPO page Sub Tab.
+INFO main Finalaya - Going to click on Past IPO page Sub Tab
+INFO main Finalaya - Verify Past IPO Information.
+INFO main Finalaya - Going to verify Past IPO Information from method
+INFO main Finalaya - Verify Information and Documents Tabs are displayed.
+INFO main Finalaya - Going to verify Information and Documents Tabs are displayed from method
+INFO main Finalaya - Verify Past IPO Columns header.
+INFO main Finalaya - Company, Listing Date, Price Band (Rs), Size (Rs. Cr.), MOQ, Close Date, Return are displayed
+INFO main Finalaya - Verify Past IPO tab Records and their order is in Descending.
+INFO main Finalaya - List is in desending order
+INFO main Finalaya - Records are displayed and Sorted for Close Date in Descending Order
+INFO main Finalaya - Verify after Clicking on Close Date Column, records will be sorted in Ascending Order.
+INFO main Finalaya - Going to click on Close Date Column
+INFO main Finalaya - List is in acsending order
+INFO main Finalaya - Records are displayed and Sorted for Close Date in Ascending Order
+INFO main Finalaya - Verify Past Guided Search Section.
+INFO main Finalaya - Going to Verify Guided Search Section is displayed with links - Top Gainers, Top Losers, Largest Issue(Share Capital), Top Rated Issues
+INFO main Finalaya - Link - Top Gainers column displayed
+INFO main Finalaya - Link - Top Losers column displayed
+INFO main Finalaya - Link - Largest Issue(Share Capital) column displayed
+INFO main Finalaya - Link - Top Rated Issues column displayed
+INFO main Finalaya - Guided Search Section is displayed with links - Top Gainers, Top Losers, Largest Issue(Share Capital), Top Rated Issues
+INFO main Finalaya - Verify that after entering Values into fields Close Date From and To and click GO Button, records are displayed where Close date is ranging between From and To dates.
+INFO main Finalaya - Going to Verify Search Criteria 
+INFO main Finalaya - Date 25-Jul-2014 ranging between from 08/07/2014 to 17/08/2014 dates
+INFO main Finalaya - Date 30-Jul-2014 ranging between from 08/07/2014 to 17/08/2014 dates
+INFO main Finalaya - For all Records Close date is ranging between From and To dates
+INFO main Finalaya - Verify that Under Company Column click on any record and user is navigated to Company's details Page.
+INFO main Finalaya - Going to click on Past IPO page Sub Tab
+INFO main Finalaya - Going to click on Past IPO Company column link
+INFO main Finalaya - Going to verify Company label
+INFO main Finalaya - User is navigated to Company's details Page 
+INFO main Finalaya - ***********************IPO_Past_VerifyCalenderTab() Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************IPO_VerifyCalenderOnIPOPage() Started*********************************
+INFO main Finalaya - click on IPO Tab
+INFO main Finalaya - Verify user is navigated to IPO page.
+INFO main Finalaya - User is navigated to IPO page
+INFO main Finalaya - Verify that Calendar is displayed on the IPO page.
+INFO main Finalaya - Calendar is displayed
+INFO main Finalaya - Verify that Calendar current month and year is displayed on the IPO page.
+INFO main Finalaya - Calendar current month and year is displayed
+INFO main Finalaya - Get the current month and year
+INFO main Finalaya - Verify that Calendar navigation is displayed on the right upper side of Calendar.
+INFO main Finalaya - Calendar navigation is displayed on the right upper side of Calendar
+INFO main Finalaya - Verify that (Green) Open,(Red) close, (Fellow)Upcoming, (Blue)Listing is displayed.
+INFO main Finalaya - (Green) Open,(Red) close, (Fellow)Upcoming, (Blue)Listing is displayed
+INFO main Finalaya - Verify that Calendar navigation functionality is working or not.
+INFO main Finalaya - Going to check Calendar navigation functionality
+INFO main Finalaya - Return Month index
+INFO main Finalaya - Previous Year match with value 2013
+INFO main Finalaya - Return Month index
+INFO main Finalaya - Previous Month match with value 10
+INFO main Finalaya - Return Month index
+INFO main Finalaya - Next Month match with value 12
+INFO main Finalaya - Next Year match with value 2015
+INFO main Finalaya - ***********************IPO_VerifyCalenderOnIPOPage() Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************Companies_VerifyCompaniesTab() Started*********************************
+INFO main Finalaya - Verify Microsite Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Microsite Page is displayed
+INFO main Finalaya - Verify Results Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Results Page is displayed
+INFO main Finalaya - Verify Annoucement Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Annoucement Page is displayed
+INFO main Finalaya - Verify Compare Companies Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Compare Companies Page is displayed
+INFO main Finalaya - Verify Industries Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Industries Page is displayed
+INFO main Finalaya - Verify Document Page Is displayed.
+INFO main Finalaya - Going to  Sub Tab
+INFO main Finalaya - Document Page is displayed
+INFO main Finalaya - **********************Companies_VerifyCompaniesTab() Ended*******************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************Companies_VerifyNavigationOnCompaniesSubtab() Started*********************************
+INFO main Finalaya - Click On Companies tab.
+INFO main Finalaya - click on Companies Tab
+INFO main Finalaya - Verify Information Tab is Present On Page.
+INFO main Finalaya - Information _Tab is displayed
+INFO main Finalaya - Verify Document Tab Is Displayed on Page.
+INFO main Finalaya - Document_Tab is displayed
+INFO main Finalaya - Verify Companies Names are Sorted in Ascending Order on Microsite Page.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row1.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row2.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row3.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row4.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row5.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row6.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row7.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row8.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row9.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row10.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row11.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row12.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row13.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row14.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row15.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row16.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row17.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row18.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row19.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row20.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row21.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row22.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row23.
+INFO main Finalaya - Companies Name Is arranged in Ascending Order in Row24.
+INFO main Finalaya - Verify Companies Names are Sorted in Descending Order on Microsite Page.
+INFO main Finalaya - Unable to get the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row1.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row2.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row3.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row4.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row5.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row6.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row7.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row8.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row9.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row10.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row11.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row12.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row13.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row14.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row15.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row16.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row17.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row18.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row19.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row20.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row21.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row22.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row23.
+INFO main Finalaya - Companies Name Is not arranged in Descending Order in Row24.
+INFO main Finalaya - Click On Companies tab.
+INFO main Finalaya - click on Companies Tab
+INFO main Finalaya - Companies Column Heading Is Displayed and verified.
+INFO main Finalaya - Click On InforMation tab.
+INFO main Finalaya - Verify NSE Text red color have down arrow and green color text have up arrow.
+INFO main Finalaya - Unable to get the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Exception occured.
+INFO main Finalaya - *********************Companies_VerifyNavigationOnCompaniesSubtab() Ended***************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to http://www.finalaya.com/
+INFO main Finalaya - ***********************Market Verify ETFTab() Started*********************************
+INFO main Finalaya - Navigate to ETF Zone tab
+INFO main Finalaya - click on ETF Zone tab
+INFO main Finalaya - Verify user is navigated to ETF Zone page.
+INFO main Finalaya - User is navigated to ETFZone Page
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Gold ETF Table
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Non Gold ETF Table
+INFO main Finalaya - Select Non Gold from Underlying dropdown
+INFO main Finalaya - Select value Non Gold from underlying dropdown
+INFO main Finalaya - select Non Goldvalue from the dropdown
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Non Gold ETF Table
+INFO main Finalaya - Select Gold from Underlying dropdown
+INFO main Finalaya - Select value Gold from underlying dropdown
+INFO main Finalaya - select Goldvalue from the dropdown
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Gold ETF Table
+INFO main Finalaya - Verify negative value is displayed in red color
+INFO main Finalaya - verify the color of negative value is Red
+INFO main Finalaya - Strings are same
+INFO main Finalaya - ***********************Market Verify ETFTab() Ended*********************************
+INFO main Finalaya - Browser closed.
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to http://www.finalaya.com/
+INFO main Finalaya - ***********************Market Verify MarketTab() Started*********************************
+INFO main Finalaya - click on Market Tab
+INFO main Finalaya - Verify user is navigated to Market page.
+INFO main Finalaya - User is navigated to Market Page
+INFO main Finalaya - click on BSE Tab
+INFO main Finalaya - Verify current value of sensex is displayed.
+INFO main Finalaya - Current value of Sensex is displayed
+INFO main Finalaya - Verify value change of sensex is displayed.
+INFO main Finalaya - Value change of Sensex is displayed
+INFO main Finalaya - Verify Percentage change of sensex is displayed.
+INFO main Finalaya - Percentage change of Sensex is displayed
+INFO main Finalaya - Verify Open, Low, High and Pre Close of Sensex is displayed.
+INFO main Finalaya - Open, low, Hig, Pre Close is displayed
+INFO main Finalaya - click on NSE Tab
+INFO main Finalaya - Verify current value of Nifty is displayed.
+INFO main Finalaya - Current value of Nifty is displayed
+INFO main Finalaya - Verify Percentage change of Nifty is displayed.
+INFO main Finalaya - Percentage change of Nifty is displayed
+INFO main Finalaya - Verify value change of Nifty is displayed.
+INFO main Finalaya - Value  of Nifty is displayed
+INFO main Finalaya - Verify Open, Low, High and Pre Close of Nifty is displayed.
+INFO main Finalaya - Open, low, Hig, Pre Close is displayed
+INFO main Finalaya - ***********************Market Verify MarketTab() Ended*********************************
+INFO main Finalaya - Browser closed.
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Compare Funds item
+INFO main Finalaya - hover mouse over Compare Funds item
+INFO main Finalaya - Verify that expected text is displayed on Page
+INFO main Finalaya - Verifying text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Comparison Graph is displayed
+INFO main Finalaya - Verifying graph is displayed
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P AUTOvalue from the dropdown
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P BANKEXvalue from the dropdown
+INFO main Finalaya - Graph is displayed on page
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card page
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Losers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Losers
+INFO main Finalaya - ***********MutualFunds_MonthScoreCard_VerifyColorAndValue() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - *************MutualFunds_VerifyTextAndNavigation() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Verify that text is displayed correctly
+INFO main Finalaya - Verify that On right of subtabs, text is displayed
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds House item
+INFO main Finalaya - click on Fund Houses
+INFO main Finalaya - Verify Funds House page is opened
+INFO main Finalaya - User is navigated to Fund Houses Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds item
+INFO main Finalaya - click on Funds
+INFO main Finalaya - Verify Funds page is opened
+INFO main Finalaya - User is navigated to Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds Screener item
+INFO main Finalaya - click on Fund Screener
+INFO main Finalaya - Verify Funds Screener page is opened
+INFO main Finalaya - User is navigated to Fund Screener Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Portfolio Churning item
+INFO main Finalaya - click on Portfolio Churning
+INFO main Finalaya - Verify Portfolio Churning page is opened
+INFO main Finalaya - User is navigated to Portfolio Churning Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Compare Funds page is opened
+INFO main Finalaya - User is navigated to Compare Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score Card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Monthly Score card page is opened
+INFO main Finalaya - User is navigated to Monthly Score Card Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on New Fund Offers item
+INFO main Finalaya - click on New Fund Offers
+INFO main Finalaya - Verify New Fund Offers page is opened
+INFO main Finalaya - User is navigated to New Fund Offers Page
+INFO main Finalaya - ***********MutualFunds_VerifyTextAndNavigation() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************Reports_DailyWrap_VerifyDailyWrapPage() Started*********************************
+INFO main Finalaya - Verify Daily Market WrapPage Is displayed.
+INFO main Finalaya - Daily Market Wrap Page is displayed
+INFO main Finalaya - Verify CNX Table Is  displayed on Daily Market WrapPage Page.
+INFO main Finalaya - CNX Nifty Table is displayed
+INFO main Finalaya - Verify BSE Sensex Table Is  displayed on Daily Market WrapPage Page.
+INFO main Finalaya - S&P BSE Sensex Table is displayed
+INFO main Finalaya - Verify that CNX Table contains Last Three Dates.
+INFO main Finalaya - CNX Nifty Table contains the Current date .
+INFO main Finalaya - CNX Nifty Table contains the Last date .
+INFO main Finalaya - CNX Nifty Table contains the Day Before Date .
+INFO main Finalaya - CNX Nifty Table contains Current , lastDate and Day Before Date 
+INFO main Finalaya - Verify that BSE SEnsex Table contains Last Three Dates.
+INFO main Finalaya - BSE Sensex Table  contains the current date .
+INFO main Finalaya - BSE Sensex Table contains the Last date .
+INFO main Finalaya - BSE Sensex Table contains the Day Before Date .
+INFO main Finalaya - BSE Sensex Table contains Current , lastDate and Day Before Date 
+INFO main Finalaya - Verify that Daily Scrap  contains Heading and 10 colmun.
+INFO main Finalaya - Unable to create the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"css selector","selector":"#divRecentReports > table > tbody > tr:nth-child(1) > td:nth-child(2) > div > a > img"}
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 70a49c96-1361-4e69-8152-d7a5b7265629
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - ***********************Reports_DailyWrap_VerifyDailyWrapPage()Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************Reports_ResearchReports_VerifyReportsPage() Started*********************************
+INFO main Finalaya - Navigate to Research reports page.
+INFO main Finalaya - click on Research Reports Tab
+INFO main Finalaya - Verify user is navigated to Research reports page.
+INFO main Finalaya - verify the tilte
+INFO main Finalaya - title is verified
+INFO main Finalaya - Verify All reports tab is displayed.
+INFO main Finalaya - All Reports tab is displayed
+INFO main Finalaya - Verify premium tab is displayed.
+INFO main Finalaya - Premium tab is displayed
+INFO main Finalaya - Verify latest tab is displayed.
+INFO main Finalaya - Latest tab is displayed
+INFO main Finalaya - Verify Most viewed tab is displayed.
+INFO main Finalaya - Most viewed tab is displayed
+INFO main Finalaya - Click on the first report link
+INFO main Finalaya - click on the first report link
+INFO main Finalaya - Switch to new window
+INFO main Finalaya - Swtching to new opened window
+INFO main Finalaya - Verify the title of new window
+INFO main Finalaya - verify the tilte of newly opened window
+INFO main Finalaya - title is verified
+INFO main Finalaya - ***********************Reports_ResearchReports_VerifyReportsPage() Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************verifyweeklywraplink() Started*********************************
+INFO main Finalaya - verifying weekly wrap link
+INFO main Finalaya - click on weekly Wrap link on report tab
+INFO main Finalaya - Verification passed
+INFO main Finalaya - Verifying tables present on report tab
+INFO main Finalaya - verifying Broad base indices text as a Table header
+INFO main Finalaya - verifying F&O summary text as a Table header
+INFO main Finalaya - verifying Sectoral Indices (Top 5) text as a Table header
+INFO main Finalaya - Verification passed
+INFO main Finalaya - navigating back to weekly wrap link
+INFO main Finalaya - click on weekly Wrap link on report tab
+INFO main Finalaya - verifying RHP tables of report tab
+INFO main Finalaya - verifying Big Wealth Creators Table
+INFO main Finalaya - verifying Biggest Wealth Destroyers Table
+INFO main Finalaya - verifying Sensex Drivers Table
+INFO main Finalaya - Verification passed
+INFO main Finalaya - navigating back to weekly wrap link
+INFO main Finalaya - click on weekly Wrap link on report tab
+INFO main Finalaya - verifying index link it navigates to market today page
+INFO main Finalaya - clicking one of the index link
+INFO main Finalaya - Verifying navigated to Market Today page
+INFO main Finalaya - Verification passed
+INFO main Finalaya - ***********************verifyweeklywraplink() Finished*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************ResearchHub_ResultsInsights_VerifyResearchHubPage() Started*********************************
+INFO main Finalaya - Verify to Click On Results Insight Tab.
+INFO main Finalaya - click on Results Insights Tab.
+INFO main Finalaya - Verify the Results title is Displayed.
+INFO main Finalaya - Results Insights title is displayed
+INFO main Finalaya - Verify that PrimarySelection,SecondrySelection,ResultType,SelectTimeLine and Quaterly Dropdown is displayed
+INFO main Finalaya - PrimarySelection,SecondrySelection,ResultType,SelectTimeLine and Quaterly Dropdown is displayed
+INFO main Finalaya - Verify to Click On Primary Selection Dropdown.
+INFO main Finalaya - click on Primary Selection DropDown.
+INFO main Finalaya - Verify to Click On Secondary Selection Dropdown.
+INFO main Finalaya - click on Secondary Selection DropDown Value.
+INFO main Finalaya - Verify to Click On Result Type Dropdown.
+INFO main Finalaya - click on Results Type DropDown Value .
+INFO main Finalaya - Verify to Click On Select TimeLine Dropdown.
+INFO main Finalaya - click on Select Time Line DropDown.
+INFO main Finalaya - Verify to Click On Quaterly Dropdown.
+INFO main Finalaya - click on Quarterly DropDown.
+INFO main Finalaya - Click On Go Button.
+INFO main Finalaya - click on Go Button
+INFO main Finalaya - Verify QD1,QD2,QD3,QD4 ,Advance View Button,QuadrantView Button and Motion Chart Button is displayed.
+INFO main Finalaya - QD1,QD2,QD3,QD4 ,Advance View Button,QuadrantView Button and Motion Chart Button is displayed
+INFO main Finalaya - Verify to Click On QD2 Frame Value.
+INFO main Finalaya - click on QD2 Frame Value
+INFO main Finalaya - Verify the QD2 Results Frame Set is Displayed.
+INFO main Finalaya - QD2 Resultant Frame is displayed
+INFO main Finalaya - Verify to Click QD2 Resultant Frame close button.
+INFO main Finalaya - click on QD2 Resultant Frame close Button.
+INFO main Finalaya - Verify the Results title is Displayed.
+INFO main Finalaya - Results Insights title is displayed
+INFO main Finalaya - ***********************ResearchHub_ResultsInsights_VerifyResearchHubPage() Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************verifyHomeTabCal() Started*********************************
+INFO main Finalaya - Verify finalaya logo
+INFO main Finalaya - verify logo image
+INFO main Finalaya - Click on Home Page Tab.
+INFO main Finalaya - click on Market Tab
+INFO main Finalaya - click on Companies Tab
+INFO main Finalaya - click on Mutual Funds Tab
+INFO main Finalaya - click on IPO Tab
+INFO main Finalaya - click on Research Hub Tab
+INFO main Finalaya - click on Widget Gallery Tab
+INFO main Finalaya - click on Resources Tab
+INFO main Finalaya - click on Quick Link button
+INFO main Finalaya - Verify finalaya tab squence.
+INFO main Finalaya - Click on square button and verify Market today, sensex text.
+INFO main Finalaya - click on square button
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - click on SENSEX link
+INFO main Finalaya - Verify latest newes section.
+INFO main Finalaya - click on Latest News button
+INFO main Finalaya - click on Latest News button
+INFO main Finalaya - Click on home page search.
+INFO main Finalaya - sends company name on search bar
+INFO main Finalaya - Click on search button
+INFO main Finalaya - Verify searched company name
+INFO main Finalaya - ***********************verifyHomeTabCal() Ended*********************************
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - *********************** Resource_VerifyGeneralEconmicIndicatorPage() Started*********************************
+INFO main Finalaya - Verify General Economic Indicator Page is displayed.
+INFO main Finalaya - GeneralEconomicIndicators is displayed.
+INFO main Finalaya - Verify KeyEconomic Page is displayed.
+INFO main Finalaya - Key_Economic is displayed.
+INFO main Finalaya - Verify CCil Indicators Indices Page is displayed.
+INFO main Finalaya - CCilIndicatorsIndices is displayed.
+INFO main Finalaya - Verify NSE FIMMDA Indicators Page is displayed.
+INFO main Finalaya - NSEFIMMDAIndicators is displayed.
+INFO main Finalaya - Verify General Economic Contains Indicator Column
+INFO main Finalaya - General Economic Contains IndicatorName Column.
+INFO main Finalaya - Verify General Economic Contains RBIPolicy Indicator Column
+INFO main Finalaya - General Economic Contains RBI Policy Indicator Column.
+INFO main Finalaya - Verify General Economic Contains RBI Reference Exchange Column
+INFO main Finalaya - General Economic Contains RBI Reference Exchange Rates Column.
+INFO main Finalaya - General Economic Contains RBI Reference Exchange Rates Column.
+INFO main Finalaya - ***********************Resource_VerifyGeneralEconmicIndicatorPage()  Ended*********************************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ***********************WidgetPage Tab() Started*********************************
+INFO main Finalaya - Clicking Widget tab
+INFO main Finalaya - clicking  widget tab link on widget Tab
+INFO main Finalaya - verifying links present on Widget tab
+INFO main Finalaya - Verifying links : Company Snapshot ,Bse MArket Ticker, Nifty tracker Latest Impressions.. links on widget Tab
+INFO main Finalaya - Verification passed
+INFO main Finalaya - Verify market breadth link and sub icons like refresh feedback on Widget Tab
+INFO main Finalaya - Verifying Market Breadth link on widget Tab
+INFO main Finalaya - Frame switched
+INFO main Finalaya - Get the tool tip value
+INFO main Finalaya - Strings are same
+INFO main Finalaya - Verification passed
+INFO main Finalaya - Navigating back to widget page
+INFO main Finalaya - clicking  widget tab link on widget Tab
+INFO main Finalaya - Verify Latest Impression section
+INFO main Finalaya - Verifying Latest Impression section
+INFO main Finalaya - Verification passed - Navigation to sublink widget successfull
+INFO main Finalaya - ***********************WidgetPage tab() Ended*********************************
+INFO main Finalaya - Browser closed

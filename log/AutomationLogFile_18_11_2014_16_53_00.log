@@ -1,0 +1,35 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/IPO/Calendar.aspx
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Window not found. The browser window may have been closed.
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 20404da7-0f6c-42fb-8382-1adfe2e0c461
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to verify the text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab

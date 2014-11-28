@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Finalaya_Demo\EExcellence\Finalaya\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Companies_Page" hash-for-method="Companies_VerifyCompaniesTab">Companies_VerifyCompaniesTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Companies_Page" hash-for-method="Companies_VerifyNavigationOnCompaniesSubtab">Companies_VerifyNavigationOnCompaniesSubtab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.IPO_Page" hash-for-method="IPO_Calender_VerifyCalenderTab">IPO_Calender_VerifyCalenderTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.IPO_Page" hash-for-method="IPO_Forthcoming_VerifyForthcomingTab">IPO_Forthcoming_VerifyForthcomingTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.IPO_Page" hash-for-method="IPO_Past_VerifyCalenderTab">IPO_Past_VerifyCalenderTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.IPO_Page" hash-for-method="IPO_VerifyCalenderOnIPOPage">IPO_VerifyCalenderOnIPOPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Market_Page" hash-for-method="Market_VerifyETFTab">Market_VerifyETFTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Market_Page" hash-for-method="Market_VerifyMarketTab">Market_VerifyMarketTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MutualFunds_Page" hash-for-method="MutualFunds_CompareFunds_VerifyTextAndGraph">MutualFunds_CompareFunds_VerifyTextAndGraph</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MutualFunds_Page" hash-for-method="MutualFunds_MonthScoreCard_VerifyColorAndValue">MutualFunds_MonthScoreCard_VerifyColorAndValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MutualFunds_Page" hash-for-method="MutualFunds_VerifyTextAndNavigation">MutualFunds_VerifyTextAndNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Reports_Page" hash-for-method="Reports_DailyWrap_VerifyDailyWrapPage">Reports_DailyWrap_VerifyDailyWrapPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.ResearchHub_Page" hash-for-method="ResearchHub_ResultsInsights_VerifyResearchHubPage">ResearchHub_ResultsInsights_VerifyResearchHubPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Resources_Page" hash-for-method="Resource_VerifyGeneralEconmicIndicatorPage">Resource_VerifyGeneralEconmicIndicatorPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Home_Page" hash-for-method="verifyHomeTabCal">verifyHomeTabCal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.Widget_Page" hash-for-method="verify_widgetTab">verify_widgetTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Widget_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_widgetTab">
+                  </a> <!-- verify_widgetTab -->
+                  <span class="method-name">verify_widgetTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Market_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Market_VerifyETFTab">
+                  </a> <!-- Market_VerifyETFTab -->
+                  <span class="method-name">Market_VerifyETFTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Market_VerifyMarketTab">
+                  </a> <!-- Market_VerifyMarketTab -->
+                  <span class="method-name">Market_VerifyMarketTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.MutualFunds_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MutualFunds_CompareFunds_VerifyTextAndGraph">
+                  </a> <!-- MutualFunds_CompareFunds_VerifyTextAndGraph -->
+                  <span class="method-name">MutualFunds_CompareFunds_VerifyTextAndGraph</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MutualFunds_MonthScoreCard_VerifyColorAndValue">
+                  </a> <!-- MutualFunds_MonthScoreCard_VerifyColorAndValue -->
+                  <span class="method-name">MutualFunds_MonthScoreCard_VerifyColorAndValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MutualFunds_VerifyTextAndNavigation">
+                  </a> <!-- MutualFunds_VerifyTextAndNavigation -->
+                  <span class="method-name">MutualFunds_VerifyTextAndNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Home_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeTabCal">
+                  </a> <!-- verifyHomeTabCal -->
+                  <span class="method-name">verifyHomeTabCal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Companies_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Companies_VerifyCompaniesTab">
+                  </a> <!-- Companies_VerifyCompaniesTab -->
+                  <span class="method-name">Companies_VerifyCompaniesTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Companies_VerifyNavigationOnCompaniesSubtab">
+                  </a> <!-- Companies_VerifyNavigationOnCompaniesSubtab -->
+                  <span class="method-name">Companies_VerifyNavigationOnCompaniesSubtab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Reports_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reports_DailyWrap_VerifyDailyWrapPage">
+                  </a> <!-- Reports_DailyWrap_VerifyDailyWrapPage -->
+                  <span class="method-name">Reports_DailyWrap_VerifyDailyWrapPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ResearchHub_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResearchHub_ResultsInsights_VerifyResearchHubPage">
+                  </a> <!-- ResearchHub_ResultsInsights_VerifyResearchHubPage -->
+                  <span class="method-name">ResearchHub_ResultsInsights_VerifyResearchHubPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.IPO_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IPO_Calender_VerifyCalenderTab">
+                  </a> <!-- IPO_Calender_VerifyCalenderTab -->
+                  <span class="method-name">IPO_Calender_VerifyCalenderTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IPO_Forthcoming_VerifyForthcomingTab">
+                  </a> <!-- IPO_Forthcoming_VerifyForthcomingTab -->
+                  <span class="method-name">IPO_Forthcoming_VerifyForthcomingTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IPO_Past_VerifyCalenderTab">
+                  </a> <!-- IPO_Past_VerifyCalenderTab -->
+                  <span class="method-name">IPO_Past_VerifyCalenderTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IPO_VerifyCalenderOnIPOPage">
+                  </a> <!-- IPO_VerifyCalenderOnIPOPage -->
+                  <span class="method-name">IPO_VerifyCalenderOnIPOPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Resources_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Resource_VerifyGeneralEconmicIndicatorPage">
+                  </a> <!-- Resource_VerifyGeneralEconmicIndicatorPage -->
+                  <span class="method-name">Resource_VerifyGeneralEconmicIndicatorPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Finalaya_Demo\EExcellence\Finalaya\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Reports.ReportPublisher&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.IPO_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Companies_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Market_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.MutualFunds_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Reports_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.ResearchHub_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Home_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Resources_Page&quot;/&gt;
+      &lt;class name=&quot;TestCases.Widget_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Companies_VerifyNavigationOnCompaniesSubtab')
+data.setCell(0, 2, 'TestCases.Companies_Page')
+data.setCell(0, 3, 204416);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'MutualFunds_MonthScoreCard_VerifyColorAndValue')
+data.setCell(1, 2, 'TestCases.MutualFunds_Page')
+data.setCell(1, 3, 151001);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Companies_VerifyCompaniesTab')
+data.setCell(2, 2, 'TestCases.Companies_Page')
+data.setCell(2, 3, 142143);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_widgetTab')
+data.setCell(3, 2, 'TestCases.Widget_Page')
+data.setCell(3, 3, 69042);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MutualFunds_VerifyTextAndNavigation')
+data.setCell(4, 2, 'TestCases.MutualFunds_Page')
+data.setCell(4, 3, 56926);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'IPO_Past_VerifyCalenderTab')
+data.setCell(5, 2, 'TestCases.IPO_Page')
+data.setCell(5, 3, 48750);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Reports_DailyWrap_VerifyDailyWrapPage')
+data.setCell(6, 2, 'TestCases.Reports_Page')
+data.setCell(6, 3, 48565);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ResearchHub_ResultsInsights_VerifyResearchHubPage')
+data.setCell(7, 2, 'TestCases.ResearchHub_Page')
+data.setCell(7, 3, 48210);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Market_VerifyMarketTab')
+data.setCell(8, 2, 'TestCases.Market_Page')
+data.setCell(8, 3, 31016);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Market_VerifyETFTab')
+data.setCell(9, 2, 'TestCases.Market_Page')
+data.setCell(9, 3, 26832);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomeTabCal')
+data.setCell(10, 2, 'TestCases.Home_Page')
+data.setCell(10, 3, 18107);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MutualFunds_CompareFunds_VerifyTextAndGraph')
+data.setCell(11, 2, 'TestCases.MutualFunds_Page')
+data.setCell(11, 3, 12480);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'IPO_Forthcoming_VerifyForthcomingTab')
+data.setCell(12, 2, 'TestCases.IPO_Page')
+data.setCell(12, 3, 10876);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'IPO_Calender_VerifyCalenderTab')
+data.setCell(13, 2, 'TestCases.IPO_Page')
+data.setCell(13, 3, 6917);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'IPO_VerifyCalenderOnIPOPage')
+data.setCell(14, 2, 'TestCases.IPO_Page')
+data.setCell(14, 3, 6385);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Resource_VerifyGeneralEconmicIndicatorPage')
+data.setCell(15, 2, 'TestCases.Resources_Page')
+data.setCell(15, 3, 3176);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.Reports_Page</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyweeklywraplink</span>
+                <br/>
+                <span class="ignored-method-name">Reports_ResearchReports_VerifyReportsPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.IPO_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.IPO_Page.IPO_Calender_VerifyCalenderTab() throws java.lang.Exception)</span>
+                <span class="method-start">686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IPO_Calender_VerifyCalenderTab</span>
+                <span class="method-start">19649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.IPO_Page.IPO_Forthcoming_VerifyForthcomingTab() throws java.lang.Exception)</span>
+                <span class="method-start">26847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IPO_Forthcoming_VerifyForthcomingTab</span>
+                <span class="method-start">38613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.IPO_Page.IPO_Past_VerifyCalenderTab() throws java.lang.Exception)</span>
+                <span class="method-start">49738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IPO_Past_VerifyCalenderTab</span>
+                <span class="method-start">60644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.IPO_Page.IPO_VerifyCalenderOnIPOPage() throws java.lang.Exception)</span>
+                <span class="method-start">109659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IPO_VerifyCalenderOnIPOPage</span>
+                <span class="method-start">119552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">126156 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Companies_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">126156 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Companies_Page.Companies_VerifyCompaniesTab() throws java.lang.Exception)</span>
+                <span class="method-start">126249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Companies_VerifyCompaniesTab</span>
+                <span class="method-start">136721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Companies_Page.Companies_VerifyNavigationOnCompaniesSubtab() throws java.lang....)</span>
+                <span class="method-start">289163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Companies_VerifyNavigationOnCompaniesSubtab</span>
+                <span class="method-start">300016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">504432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">504714 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Market_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">504714 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Market_Page.Market_VerifyETFTab() throws java.lang.InterruptedException)</span>
+                <span class="method-start">504776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Market_VerifyETFTab</span>
+                <span class="method-start">515821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">542653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Market_Page.Market_VerifyMarketTab())</span>
+                <span class="method-start">542856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Market_VerifyMarketTab</span>
+                <span class="method-start">553749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">584765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">584983 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MutualFunds_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">584983 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.MutualFunds_Page.MutualFunds_CompareFunds_VerifyTextAndGraph() throws java.lan...)</span>
+                <span class="method-start">585078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MutualFunds_CompareFunds_VerifyTextAndGraph</span>
+                <span class="method-start">596225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">608705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.MutualFunds_Page.MutualFunds_MonthScoreCard_VerifyColorAndValue())</span>
+                <span class="method-start">608939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MutualFunds_MonthScoreCard_VerifyColorAndValue</span>
+                <span class="method-start">620404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">771405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.MutualFunds_Page.MutualFunds_VerifyTextAndNavigation())</span>
+                <span class="method-start">771623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MutualFunds_VerifyTextAndNavigation</span>
+                <span class="method-start">781766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">838692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">839050 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Reports_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">839050 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Reports_Page.Reports_DailyWrap_VerifyDailyWrapPage())</span>
+                <span class="method-start">839128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Reports_DailyWrap_VerifyDailyWrapPage</span>
+                <span class="method-start">849686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">898251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">898454 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ResearchHub_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">898454 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.ResearchHub_Page.ResearchHub_ResultsInsights_VerifyResearchHubPage())</span>
+                <span class="method-start">898516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ResearchHub_ResultsInsights_VerifyResearchHubPage</span>
+                <span class="method-start">908119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">956329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">956532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Home_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">956532 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Home_Page.verifyHomeTabCal() throws java.lang.Exception)</span>
+                <span class="method-start">956610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeTabCal</span>
+                <span class="method-start">967586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">985694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">985981 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Resources_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">985981 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Resources_Page.Resource_VerifyGeneralEconmicIndicatorPage() throws java.lang.E...)</span>
+                <span class="method-start">986090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Resource_VerifyGeneralEconmicIndicatorPage</span>
+                <span class="method-start">997196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1000372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">1000585 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Widget_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LoadObjectReository</span>
+                <span class="method-start">1000585 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TestCases.Widget_Page.verify_widgetTab() throws java.lang.Exception)</span>
+                <span class="method-start">1000663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_widgetTab</span>
+                <span class="method-start">1011220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1080262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ClearObjectRepository</span>
+                <span class="method-start">1080527 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

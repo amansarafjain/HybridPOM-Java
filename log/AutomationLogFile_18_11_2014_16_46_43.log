@@ -1,0 +1,74 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/IPO/Calendar.aspx
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"xpath","selector":"//*[@id=\"aspnetForm\"]/div[6]/div/div[10]/table/tbody/tr[4]/td/span"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 72492bf6-29a1-43e9-876c-164238f8717d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"xpath","selector":"//*[@id='aspnetForm']/div[6]/div/div[10]/table/tbody/tr[7]/td[1]/span"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 72492bf6-29a1-43e9-876c-164238f8717d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"css selector","selector":"#aspnetForm > div:nth-child(36) > div > div:nth-child(15) > table > tbody > tr:nth-child(7) > td:nth-child(3) > span"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 72492bf6-29a1-43e9-876c-164238f8717d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"css selector","selector":"#aspnetForm > div:nth-child(36) > div > div:nth-child(15) > table > tbody > tr:nth-child(10) > td:nth-child(1) > span"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 72492bf6-29a1-43e9-876c-164238f8717d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"css selector","selector":"#aspnetForm > div:nth-child(36) > div > div:nth-child(15) > table > tbody > tr:nth-child(10) > td:nth-child(3) > span"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: 72492bf6-29a1-43e9-876c-164238f8717d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to get the back ground colcor
+INFO main Finalaya - 
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers

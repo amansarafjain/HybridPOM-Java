@@ -1,0 +1,91 @@
+INFO main Finalaya - Unable to launch browser 
+INFO main Finalaya - ***********************Market Verify ETFTab() Started*********************************
+INFO main Finalaya - Navigate to ETF Zone tab
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to navigate to sublink
+INFO main Finalaya - click on ETF Zone tab
+INFO main Finalaya - Verify user is navigated to ETF Zone page.
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - User is not navigated to ETFZone Page
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - User is not navigated to Gold ETF Table
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - User is not navigated to Non Gold ETF Table
+INFO main Finalaya - Select Non Gold from Underlying dropdown
+INFO main Finalaya - Select value Non Gold from underlying dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select Non Goldvalue from the dropdown
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - User is not navigated to Non Gold ETF Table
+INFO main Finalaya - Select Gold from Underlying dropdown
+INFO main Finalaya - Select value Gold from underlying dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select Goldvalue from the dropdown
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - User is not navigated to Gold ETF Table
+INFO main Finalaya - Verify negative value is displayed in red color
+INFO main Finalaya - verify the color of negative value is Red
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to get the back griund colcor
+INFO main Finalaya - Strings are not same
+INFO main Finalaya - ***********************Market Verify ETFTab() Ended*********************************
+INFO main Finalaya - Unable to launch browser 
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Not able to hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Compare Funds item
+INFO main Finalaya - hover mouse over Compare Funds item
+INFO main Finalaya - Not able to hover mouse over Compare Funds item
+INFO main Finalaya - Verify that expected text is displayed on Page
+INFO main Finalaya - Verifying text
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Unable to verify the text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Not able to hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - Verify Comparison Graph is displayed
+INFO main Finalaya - Verifying graph is displayed
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unable to check the check box
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unable to check the check box
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select Indexvalue from the dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select S&P AUTOvalue from the dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select Indexvalue from the dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - unale to select S&P BANKEXvalue from the dropdown
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to verify if graph is displayed
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Ended**************

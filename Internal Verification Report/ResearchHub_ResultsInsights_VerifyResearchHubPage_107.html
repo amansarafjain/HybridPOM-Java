@@ -1,0 +1,13 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:40:50</td><td>Verify if Results title is Displayed.</td><td>Results title is Displayed.</td><td>Results title is Displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:40:50</td><td>Verify if PrimarySelection,SecondrySelection,ResultType,SelectTimeLine Quaterly Dropdown is displayed.</td><td>PrimarySelection,SecondrySelection,ResultType,SelectTimeLine Quaterly Dropdown is displayed.</td><td>PrimarySelection,SecondrySelection,ResultType,SelectTimeLine Quaterly Dropdown is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:41:23</td><td>Verify if QD1 QD2 QD3 QD4 is Displayed.</td><td>QD1 QD2 QD3 QD4 is Displayed.</td><td>QD1 QD2 QD3 QD4 is Displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:41:23</td><td>Verify if QD2 Resultant Frame is Displayed.</td><td>QD2 ResultantFrame Displayed.</td><td>QD2 ResultantFrame Displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:41:35</td><td>Verify if Results title is Displayed.</td><td>Results title is Displayed.</td><td>Results title is Displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

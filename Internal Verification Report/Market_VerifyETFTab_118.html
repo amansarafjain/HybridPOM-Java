@@ -1,0 +1,13 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:28:38</td><td>Verify if User is navigated to ETF Zone.</td><td>User is navigated to ETF Zone.</td><td>User is navigated to ETF Zone.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:28:38</td><td>Verify if Gold ETF Table is displayed on the ETF zone page.</td><td>Gold ETF Table is displayed on the ETF zone page.</td><td>Gold ETF Table is displayed on the ETF zone page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:28:38</td><td>Verify if Non Gold ETF Table is displayed on the ETF zone page.</td><td>Non Gold ETF Table is displayed on the ETF zone page.</td><td>Non Gold ETF Table is displayed on the ETF zone page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:28:58</td><td>Verify Gold ETF Table is displayed on the ETF Zone page.</td><td>Gold ETF Table is displayed on the ETF Zone page.</td><td>Gold ETF Table is not displayed on the ETF Zone page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:28:58</td><td>Verify if Negative value is displayed in red color.</td><td>Negative value is displayed in red color.</td><td>Negative value is displayed in red color.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

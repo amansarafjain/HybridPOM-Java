@@ -1,0 +1,14 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:34:40</td><td>Verify if Daily Market Wrap Page is displayed.</td><td>Daily Market Wrap Page is displayed.</td><td>Daily Market Wrap Page is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:34:40</td><td>Verify if CNX table is displayed on Daily Market WrapPage page.</td><td>CNX table is displayed on Daily Market WrapPage page.</td><td>CNX table is displayed on Daily Market WrapPage page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:34:40</td><td>Verify if BSE sensex table is displayed on Daily Market Wrap Page.</td><td>BSE sensex table is displayed on Daily Market Wrap Page.</td><td>BSE sensex table is displayed on Daily Market Wrap Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:34:40</td><td>Verify if CNX table contains last three dates.</td><td>CNX table contains last three dates.</td><td>CNX table contains last three dates.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>12:34:40</td><td>Verify if BSE sensex table contains last three dates.</td><td>BSE sensex table contains last three dates.</td><td>BSE sensex table contains last three dates.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = "FF6666"><td></td><td width = "8%">26-11-2014</td><td>12:36:14</td><td>Verify if Daily Scrap contains heading and 10 column.</td><td>Daily Scrap contains heading and 10 column.</td><td>Daily Scrap does not contain heading and 10 column.</td><td><a target = "_blank" href="D:\Finalaya_Demo\EExcellence\Finalaya\ScreenShots\26-11-2014\Snapshot1.png">D:\Finalaya_Demo\EExcellence\Finalaya\ScreenShots\26-11-2014\Snapshot1.png</a></td><td>FAIL</td></tr>
+</table></body></html>

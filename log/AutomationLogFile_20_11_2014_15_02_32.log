@@ -1,0 +1,159 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to http://www.finalaya.com/
+INFO main Finalaya - ***********************Market Verify ETFTab() Started*********************************
+INFO main Finalaya - Navigate to ETF Zone tab
+INFO main Finalaya - click on ETF Zone tab
+INFO main Finalaya - Verify user is navigated to ETF Zone page.
+INFO main Finalaya - User is navigated to ETFZone Page
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Gold ETF Table
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Non Gold ETF Table
+INFO main Finalaya - Select Non Gold from Underlying dropdown
+INFO main Finalaya - Select value Non Gold from underlying dropdown
+INFO main Finalaya - select Non Goldvalue from the dropdown
+INFO main Finalaya - Verify Non Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Non Gold ETF Table
+INFO main Finalaya - Select Gold from Underlying dropdown
+INFO main Finalaya - Select value Gold from underlying dropdown
+INFO main Finalaya - select Goldvalue from the dropdown
+INFO main Finalaya - Verify Gold ETF Table is displayed on the ETF Zone page.
+INFO main Finalaya - User is navigated to Gold ETF Table
+INFO main Finalaya - Verify negative value is displayed in red color
+INFO main Finalaya - verify the color of negative value is Red
+INFO main Finalaya - Strings are same
+INFO main Finalaya - ***********************Market Verify ETFTab() Ended*********************************
+INFO main Finalaya - Browser closed.
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to http://www.finalaya.com/
+INFO main Finalaya - ***********************Market Verify MarketTab() Started*********************************
+INFO main Finalaya - click on Market Tab
+INFO main Finalaya - Verify user is navigated to Market page.
+INFO main Finalaya - User is navigated to Market Page
+INFO main Finalaya - click on BSE Tab
+INFO main Finalaya - Verify current value of sensex is displayed.
+INFO main Finalaya - Current value of Sensex is displayed
+INFO main Finalaya - Verify value change of sensex is displayed.
+INFO main Finalaya - Value change of Sensex is displayed
+INFO main Finalaya - Verify Percentage change of sensex is displayed.
+INFO main Finalaya - Percentage change of Sensex is displayed
+INFO main Finalaya - Verify Open, Low, High and Pre Close of Sensex is displayed.
+INFO main Finalaya - Open, low, Hig, Pre Close is displayed
+INFO main Finalaya - click on NSE Tab
+INFO main Finalaya - Verify current value of Nifty is displayed.
+INFO main Finalaya - Current value of Nifty is displayed
+INFO main Finalaya - Verify Percentage change of Nifty is displayed.
+INFO main Finalaya - Percentage change of Nifty is displayed
+INFO main Finalaya - Verify value change of Nifty is displayed.
+INFO main Finalaya - Value  of Nifty is displayed
+INFO main Finalaya - Verify Open, Low, High and Pre Close of Nifty is displayed.
+INFO main Finalaya - Open, low, Hig, Pre Close is displayed
+INFO main Finalaya - ***********************Market Verify MarketTab() Ended*********************************
+INFO main Finalaya - Browser closed.
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Compare Funds item
+INFO main Finalaya - hover mouse over Compare Funds item
+INFO main Finalaya - Verify that expected text is displayed on Page
+INFO main Finalaya - Verifying text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Comparison Graph is displayed
+INFO main Finalaya - Verifying graph is displayed
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P AUTOvalue from the dropdown
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P BANKEXvalue from the dropdown
+INFO main Finalaya - Graph is displayed on page
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card page
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Losers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Losers
+INFO main Finalaya - ***********MutualFunds_MonthScoreCard_VerifyColorAndValue() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/
+INFO main Finalaya - *************MutualFunds_VerifyTextAndNavigation() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Verify that text is displayed correctly
+INFO main Finalaya - Verify that On right of subtabs, text is displayed
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds House item
+INFO main Finalaya - click on Fund Houses
+INFO main Finalaya - Verify Funds House page is opened
+INFO main Finalaya - User is navigated to Fund Houses Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds item
+INFO main Finalaya - click on Funds
+INFO main Finalaya - Verify Funds page is opened
+INFO main Finalaya - User is navigated to Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds Screener item
+INFO main Finalaya - click on Fund Screener
+INFO main Finalaya - Verify Funds Screener page is opened
+INFO main Finalaya - User is navigated to Fund Screener Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Portfolio Churning item
+INFO main Finalaya - click on Portfolio Churning
+INFO main Finalaya - Verify Portfolio Churning page is opened
+INFO main Finalaya - User is navigated to Portfolio Churning Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Compare Funds page is opened
+INFO main Finalaya - User is navigated to Compare Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score Card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Monthly Score card page is opened
+INFO main Finalaya - User is navigated to Monthly Score Card Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on New Fund Offers item
+INFO main Finalaya - click on New Fund Offers
+INFO main Finalaya - Verify New Fund Offers page is opened
+INFO main Finalaya - User is navigated to New Fund Offers Page
+INFO main Finalaya - ***********MutualFunds_VerifyTextAndNavigation() Ended**************
+INFO main Finalaya - Browser closed

@@ -1,0 +1,14 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:20:59</td><td>Verify if user is navigaed to Research Reports Page.</td><td>User is navigaed to Research Reports Page.</td><td>User is navigated to Research Reports Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:20:59</td><td>Verify if All Reports tab is displayed.</td><td>All Reports tab is displayed.</td><td>All Reports tab is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:20:59</td><td>Verify if Premium Tab is displayed.</td><td>Premium Tab is displayed.</td><td>Premium Tab is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:20:59</td><td>Verify if Latest tab is displayed.</td><td>Latest tab is displayed.</td><td>Latest tab is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:20:59</td><td>Verify if Most Viewed Tab is displayed.</td><td>Most Viewed Tab is displayed.</td><td>Most Viewed Tab is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:21:04</td><td>Verify the title of new window.</td><td>Title of the new window is matched.</td><td>Title of the new window is matched.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

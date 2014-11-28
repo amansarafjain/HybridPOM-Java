@@ -1,0 +1,12 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:20:19</td><td>Verify if user is navigated to IPO page.</td><td>User is navigated to IPO page.</td><td>User is navigated to IPO page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:20:19</td><td>Verify if Calender current month and year is displayed on IPO page.</td><td>Calender current month and year is displayed on IPO page.</td><td>Calender current month and year is displayed on IPO page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:20:21</td><td>Verify if IPO Microsite where Company Name is displayed as Label</td><td>IPO Microsite where Company Name is displayed as Label.</td><td>IPO Microsite where Company Name is displayed as Label</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">26-11-2014</td><td>13:20:22</td><td>Verify if on IPO Microsite Page sections displayed are as Overview, Issue Details, Contact Information, IPO Managing Bodies, Documents Research Reports.</td><td>IPO Microsite Page sections displayed are as Overview, Issue Details, Contact Information, IPO Managing Bodies, Documents Research Reports.</td><td>IPO Microsite Page sections displayed are as Overview, Issue Details, Contact Information, IPO Managing Bodies, Documents Research Reports.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

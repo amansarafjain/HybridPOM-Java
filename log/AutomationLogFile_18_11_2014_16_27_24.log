@@ -1,0 +1,120 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/IPO/Calendar.aspx
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Compare Funds item
+INFO main Finalaya - hover mouse over Compare Funds item
+INFO main Finalaya - Verify that expected text is displayed on Page
+INFO main Finalaya - Verifying text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Comparison Graph is displayed
+INFO main Finalaya - Verifying graph is displayed
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - Checkbox is already checked
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P AUTOvalue from the dropdown
+INFO main Finalaya - select Indexvalue from the dropdown
+INFO main Finalaya - select S&P BANKEXvalue from the dropdown
+INFO main Finalaya - Graph is displayed on page
+INFO main Finalaya - ************MutualFunds_CompareFunds_VerifyTextAndGraph() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/IPO/Calendar.aspx
+INFO main Finalaya - **************MutualFunds_MonthScoreCard_VerifyColorAndValue() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Top 5 Fund Houses in terms of Corpus (displayed in BLUE)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses in terms of Corpus displayed in BLUE
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Gainers on Corpus basis(displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Gainers on Corpus basis displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 Fund Houses Losers on Corpus basis(displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 Fund Houses Losers on Corpus basis displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Gainers (displayed in GREEN)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Gainers displayed in GREEN
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify Top 5 NAV (%) Losers tables (displayed in RED)
+INFO main Finalaya - Verifying color of Top 5 NAV (%) Losers tables displayed in RED
+INFO main Finalaya - color verified and found same
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Gainers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Gainers
+INFO main Finalaya - Unable to get the WebElement
+INFO main Finalaya - 
+INFO main Finalaya - Not able to click on Weblink
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"id","selector":"ctl00_BodyCPH_ucLftPanel_lblAvgAUM"}
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: f0b55075-04da-484a-89d1-eb0d362369c8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to verify the text
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score card page
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify same Corpus Amount is displayed on page for first record of Top 5 Fund Houses Losers on Corpus basis
+INFO main Finalaya - Verifying value of Corpus Losers
+INFO main Finalaya - ***********MutualFunds_MonthScoreCard_VerifyColorAndValue() Ended**************
+INFO main Finalaya - Browser closed
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://www.finalaya.com/IPO/Calendar.aspx
+INFO main Finalaya - *************MutualFunds_VerifyTextAndNavigation() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Verify that text is displayed correctly
+INFO main Finalaya - Verify that On right of subtabs, text is displayed
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds House item
+INFO main Finalaya - click on Fund Houses
+INFO main Finalaya - Verify Funds House page is opened
+INFO main Finalaya - User is navigated to Fund Houses Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds item
+INFO main Finalaya - click on Funds
+INFO main Finalaya - Verify Funds page is opened
+INFO main Finalaya - User is navigated to Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Funds Screener item
+INFO main Finalaya - click on Fund Screener
+INFO main Finalaya - Verify Funds Screener page is opened
+INFO main Finalaya - User is navigated to Fund Screener Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Portfolio Churning item
+INFO main Finalaya - click on Portfolio Churning
+INFO main Finalaya - Verify Portfolio Churning page is opened
+INFO main Finalaya - User is navigated to Portfolio Churning Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Compare Funds item
+INFO main Finalaya - click on Compare Funds
+INFO main Finalaya - Verify Compare Funds page is opened
+INFO main Finalaya - User is navigated to Compare Funds Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on Monthly Score Card item
+INFO main Finalaya - click on Monthly Score Card
+INFO main Finalaya - Verify Monthly Score card page is opened
+INFO main Finalaya - User is navigated to Monthly Score Card Page
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Click on New Fund Offers item
+INFO main Finalaya - click on New Fund Offers
+INFO main Finalaya - Verify New Fund Offers page is opened
+INFO main Finalaya - User is navigated to New Fund Offers Page
+INFO main Finalaya - ***********MutualFunds_VerifyTextAndNavigation() Ended**************
+INFO main Finalaya - Browser closed

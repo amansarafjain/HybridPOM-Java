@@ -1,0 +1,13 @@
+<html>
+<head>
+<Script>function GenerateColId() { var tableId = document.getElementById('reportTable'); var cols = tableId.rows[0].cells.length; var a =1;for(var i =1; i < tableId.rows.length; i++) {	tableId.rows[i].cells[0].innerText = a; a++;}}</Script></head>
+<title> My Custom Report Methods</title>
+</head>
+<body onload = GenerateColId()><br/>
+<table border='1' width='100%' id = "reportTable"> <tr bgcolor="grey"><td>S.No.</td><td>Date</td><td>Time</td><td>Action</td><td>Expected Result</td><td>Actual Result</td><td>Screenshot</td><td>Status</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:11:50</td><td>Verify if Information Tab is Present on Page.</td><td>Information Page is displayed on Page.</td><td>Information Page is displayed on Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:11:50</td><td>Verify if Document Tab is Displayed on Page.</td><td>Document Tab is displayed on Page.</td><td>Document Tab is displayed on Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:11:51</td><td>Verify if Companies Names are sorted in ascending Order on Microsite Page.</td><td>Companies Names are sorted in ascending order on Microsite Page.</td><td>Companies Names are sorted in ascending order on Microsite Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:11:52</td><td>Verify id Companies Names are sorted in descending order on Microsite Page.</td><td>Companies Names are sorted in descending order on Microsite Page.</td><td>Companies Names are sorted in descending orderon Microsite Page.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+<tr bgcolor = lightgreen><td></td><td width = "8%">25-11-2014</td><td>13:13:17</td><td>Verify if Company Table Heading is displayed.</td><td>Company Table heading is displayed.</td><td>Company Table heading is displayed.</td><td><a target = "_blank" href=""></a></td><td>PASS</td></tr>
+</table></body></html>

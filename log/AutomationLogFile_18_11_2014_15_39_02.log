@@ -1,0 +1,9 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://finalaya.com
+INFO main Finalaya - *************MutualFunds_VerifyTextAndNavigation() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Verify that text is displayed correctly
+INFO main Finalaya - Verify that On right of subtabs, text is displayed
+INFO main Finalaya - ***********MutualFunds_VerifyTextAndNavigation() Ended**************
+INFO main Finalaya - Browser closed

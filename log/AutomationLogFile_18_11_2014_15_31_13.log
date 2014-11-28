@@ -1,0 +1,17 @@
+INFO main Finalaya - Browser launched
+INFO main Finalaya - Navigated to  http://finalaya.com
+INFO main Finalaya - *************MutualFunds_VerifyTextAndNavigation() Started**************
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Hover mouse over Mutual Funds tab
+INFO main Finalaya - Verify that text is displayed correctly
+INFO main Finalaya - Verify that On right of subtabs, text is displayed
+INFO main Finalaya - Unable to craete the WebElement
+INFO main Finalaya - Unable to locate element: {"method":"id","selector":" dMF"}
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:32'
+System info: host: 'impetus-n078', ip: '192.168.212.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_03'
+Session ID: fb4736e1-8af6-491b-b9eb-189d32e16f7c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=31.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+INFO main Finalaya - Unable to verify the text
